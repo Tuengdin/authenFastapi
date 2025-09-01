@@ -1,0 +1,73 @@
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# SQLite / local DB
+*.db
+*.sqlite3
+auth.db
+
+# Alembic
+migrations/versions/__pycache__/
+migrations/*.log
+
+# Logs
+logs/
+*.log
+
+# Coverage / testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Tool caches
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.tox/
+.ruff_cache/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.code-workspace
+
+# Node (if front-end added later)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated assets
+staticfiles/
+media/
+
+# Docker artifacts
+*.pid
+*.tar
+
+# Temporary
+tmp/
+temp/
+*.swp
+*.swo
